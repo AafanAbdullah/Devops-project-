@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elegant Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Playfair Display', serif;
+    }
+    body {
+      background-color: #fffaf6;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #b83b5e;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #f08a5d;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #333;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?restaurant,food') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+    .hero h2 {
+      font-size: 3rem;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .menu-item {
+      margin-bottom: 1.5rem;
+    }
+    .menu-item h3 {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.5rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    footer {
+      background: #6a0572;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>La Cuisine</h1>
+    <p>Fine Dining Experience</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Welcome to Our Restaurant</h2>
+  </div>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>La Cuisine offers an elegant dining experience with a blend of classic and contemporary dishes crafted from the freshest ingredients. Our chefs are passionate about flavor, presentation, and innovation.</p>
+  </section>
+
+  <section class="section" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <h3>Grilled Salmon <span>$25</span></h3>
+      <p>Fresh Atlantic salmon grilled to perfection, served with seasonal vegetables.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Filet Mignon <span>$35</span></h3>
+      <p>Prime beef filet served with a red wine reduction and truffle mashed potatoes.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Vegetarian Risotto <span>$20</span></h3>
+      <p>Creamy risotto with a mix of wild mushrooms, peas, and parmesan cheese.</p>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>123 Gourmet Lane, Foodie City, FC 45678</p>
+    <p>Email: reservations@lacuisine.com | Phone: (123) 456-7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 La Cuisine. All rights reserved.</p>
+  </footer>
+</body>
+</html>
